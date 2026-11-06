@@ -62,7 +62,7 @@ function copyToClipboard() {
       textFinal = textFinal + `--- Student will receive ${oralExamExtraPreparationTime.value}% extra time during exam preparation.\n`
     }
     if(oralExamOther.value) {
-      textFinal = textFinal + `--- ${writtenExamOther.value}\n`
+      textFinal = textFinal + `--- ${oralExamOther.value}\n`
     }
   }
 
