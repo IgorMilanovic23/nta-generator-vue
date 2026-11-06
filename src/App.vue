@@ -67,7 +67,7 @@ function copyToClipboard() {
   }
 
   if(generalAgreements.value) {
-    textFinal = textFinal + `--- ${writtenExamOther.value}\n`
+    textFinal = textFinal + `--- ${generalAgreements.value}\n`
   }
 
   navigator.clipboard.writeText(textFinal).then(() => {
